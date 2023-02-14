@@ -1,0 +1,230 @@
+/* body {
+  font-family: 'Jura', sans-serif;
+  font-size: 20px;
+} */
+
+.register {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.regOuter h4 {
+  text-align: center;
+}
+.modal-login {
+  background-image: url('https://img.freepik.com/premium-photo/water-drops-blue-background_200040-3001.jpg?w=2000');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+}
+.user-top {
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 7px;
+}
+.dropDisplay {
+  position: absolute;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: -4%;
+  color: blue;
+  z-index: 1;
+  transition: 0.3s;
+}
+.change-pass {
+  width: 50%;
+}
+.card-body-outer {
+  margin-left: 18%;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.call-action {
+  display: flex;
+  margin: 10px;
+  cursor: pointer;
+}
+.list-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.data-table {
+  font-size: 30px;
+}
+.change-pass h4 {
+  text-align: center;
+}
+.home-first-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://www.daysoftheyear.com/wp-content/uploads/world-student-day1.jpg');
+  height: 95vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-first-section p {
+  position: absolute;
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(8, 255, 82);
+  text-shadow: 0px 0px 10px rgb(99, 0, 0);
+  font-family: 'Satisfy', cursive;
+}
+
+.list-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.home-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: pointer;
+  background-image: url('https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=pexels-bich-tran-669996.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-images img {
+  width: 100%;
+}
+.home-images .data-img:hover {
+  transform: translate(0, -5%);
+  transition: 0.3s;
+}
+
+.home-images .card {
+  border: 1px solid rgb(255, 255, 255);
+  outline: 1px solid rgb(255, 255, 255);
+  background-color: black;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+/* ===================== */
+@media only screen and (max-width: 990px) {
+  .dropDisplay {
+    position: relative;
+  }
+}
+
+/* /////extra//// */
+.p2pOuter {
+  height: 100vh;
+  background-color: black;
+}
+.p2pFirstInner {
+  width: 90%;
+  transform: translate(0, 20%);
+  color: white;
+  background: #0e0219 0 0 no-repeat padding-box;
+  border: 1px solid #6500c9;
+  border-radius: 23px;
+  position: relative;
+  padding: 30px;
+  align-items: center;
+}
+.p2pHead {
+  display: flex;
+  margin: 50px;
+  font: 400 18px/32px 'Unbounded', sans-serif;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.buttons button {
+  padding: 8px 50px;
+  border-radius: 30px;
+  border: 1px ridge #6500c9;
+  color: white;
+  font-size: 15px;
+  background-color: #0e0219;
+  font-family: 'Unbounded', cursive;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.btn-1 {
+  background-image: linear-gradient(#6b10c5, #984ae6);
+}
+.p2psecond-section {
+  display: flex;
+  transform: translate(5%, -50%);
+  flex-wrap: wrap;
+}
+.p2psecond-section p {
+  font: 400 16px/24px 'Unbounded', sans-serif;
+  margin: 10px 0 0 30px;
+}
+.metaId {
+  margin: 0 0 0 30px;
+  font-family: 'Unbounded', cursive;
+  font-weight: lighter;
+  color: #e69ef8;
+  font-size: 14px;
+}
+.p2pThirdSection {
+  display: flex;
+  margin: 0 0 0 50px;
+  font-family: 'Unbounded', cursive;
+  font-weight: lighter;
+  color: #f7d5ff;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.num {
+  color: white;
+  font-weight: normal;
+  margin-top: 5px;
+}
+.wallet {
+  margin-top: 40px;
+}
+
+.third-inside {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .metaId {
+    white-space: nowrap;
+    max-width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (max-width: 550px) {
+  .buttons button {
+    margin: 10px;
+  }
+  .p2pThirdSection {
+    flex-direction: row;
+  }
+}
+@media (max-width: 662px) {
+  .p2psecond-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+  }
+}
+
+/* #######################################################################33 */
+.test-btn {
+  display: flex;
+  margin: 8% 0 0 8%;
+}
+.formik-test-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
