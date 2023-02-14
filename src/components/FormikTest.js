@@ -4,7 +4,8 @@ import * as Yup from 'yup';
 
 const FormikTest = () => {
   let initialValues = { firstName: '', lastName: '', email: '' };
-  console.log("hi");
+  console.log('hi');
+  console.log('hello');
   let validationSchema = Yup.object({
     firstName: Yup.string()
       .max(15, 'Must be 15 characters or less')
